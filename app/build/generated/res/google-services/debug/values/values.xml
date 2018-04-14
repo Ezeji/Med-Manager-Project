@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1043721319070-43rq5g6upp5klriv2o3814e1qibpf6g3.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://med-manager-5156a.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1043721319070</string>
+    <string name="google_api_key" translatable="false">AIzaSyBu7g5MN8DvTcHIr7Gp1xI8BGcZoHE21mA</string>
+    <string name="google_app_id" translatable="false">1:1043721319070:android:66918e0c4e00e4a0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBu7g5MN8DvTcHIr7Gp1xI8BGcZoHE21mA</string>
+    <string name="google_storage_bucket" translatable="false">med-manager-5156a.appspot.com</string>
+</resources>

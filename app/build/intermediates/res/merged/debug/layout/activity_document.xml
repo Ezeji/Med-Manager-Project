@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToPadding="true"
+    android:background="#E9A698">
+
+
+    <TextView
+        android:id="@+id/record_drug"
+        android:layout_width="324dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/record_drug"
+        android:textAppearance="@style/record_drug" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "DAY1:"
+        android:textColor="#FF0808"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Yes"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="80dp"
+            android:id = "@+id/R_button1"
+            android:onClick="onRadioButtonClicked1"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "No"
+            android:textSize="18sp"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="140dp"
+            android:id = "@+id/R_button2"
+            android:onClick="onRadioButtonClicked1"/>
+
+    </RadioGroup>
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text = "DAY2:"
+    android:textColor="#FF0808"
+    android:layout_marginTop="120dp"
+    android:textSize="20sp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Yes"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="140dp"
+            android:id = "@+id/R_button3"
+            android:onClick="onRadioButtonClicked2"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "No"
+            android:textSize="18sp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="140dp"
+            android:id = "@+id/R_button4"
+            android:onClick="onRadioButtonClicked2"/>
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "DAY3:"
+        android:textColor="#FF0808"
+        android:layout_marginTop="180dp"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Yes"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="200dp"
+            android:id = "@+id/R_button5"
+            android:onClick="onRadioButtonClicked3"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "No"
+            android:textSize="18sp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="140dp"
+            android:id = "@+id/R_button6"
+            android:onClick="onRadioButtonClicked3"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "DAY4:"
+        android:textColor="#FF0808"
+        android:layout_marginTop="240dp"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Yes"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="260dp"
+            android:id = "@+id/R_button7"
+            android:onClick="onRadioButtonClicked4"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "No"
+            android:textSize="18sp"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="140dp"
+            android:id = "@+id/R_button8"
+            android:onClick="onRadioButtonClicked4"/>
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "DAY5:"
+        android:textColor="#FF0808"
+        android:layout_marginTop="300dp"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Yes"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="320dp"
+            android:id = "@+id/R_button9"
+            android:onClick="onRadioButtonClicked5"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "No"
+            android:textSize="18sp"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="140dp"
+            android:id = "@+id/R_button10"
+            android:onClick="onRadioButtonClicked5"/>
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "DAY6:"
+        android:textColor="#FF0808"
+        android:layout_marginTop="360dp"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Yes"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="380dp"
+            android:id = "@+id/R_button11"
+            android:onClick="onRadioButtonClicked6"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "No"
+            android:textSize="18sp"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="140dp"
+            android:id = "@+id/R_button12"
+            android:onClick="onRadioButtonClicked6"/>
+
+    </RadioGroup>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "DAY7:"
+        android:textColor="#FF0808"
+        android:layout_marginTop="420dp"
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Yes"
+            android:textSize="18sp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="440dp"
+            android:id = "@+id/R_button13"
+            android:onClick="onRadioButtonClicked7"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "No"
+            android:textSize="18sp"
+            android:layout_marginTop="440dp"
+            android:layout_marginLeft="140dp"
+            android:id = "@+id/R_button14"
+            android:onClick="onRadioButtonClicked7"/>
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/send_button"
+        android:background="#C4C4C4"
+        android:layout_width="123dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="480dp"
+        android:text="Send"/>
+
+
+    
+
+
+</RelativeLayout>

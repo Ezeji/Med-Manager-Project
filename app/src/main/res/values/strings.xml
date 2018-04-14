@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Med-Manager</string>
+
+    <!-- string_medication.xml -->
+<string name="medication_">
+
+Medication \n      Information
+</string>
+
+    <!-- string_name.xml -->
+<string name="name">
+
+Name:
+</string>
+
+    <!-- string_description.xml -->
+<string name="description">
+
+Description:
+</string>
+
+    <!-- string_interval.xml -->
+<string name="interval">
+
+Interval:
+</string>
+
+    <!-- string_start-date.xml -->
+<string name="start_date">
+
+Start Date:
+</string>
+
+    <!-- string_end-date.xml -->
+<string name="end_date">
+
+End Date:
+</string>
+
+    <!-- string_record-drug.xml -->
+<string name="record_drug">
+
+  Record Drug Intake(Yes/No)
+</string>
+
+    <!-- string_sun.xml -->
+<string name="sun">
+
+Sun.:
+</string>
+
+    <!-- string_mon.xml -->
+<string name="mon">
+
+Mon.:
+</string>
+
+    <!-- string_tue.xml -->
+<string name="tue">
+
+Tue.:
+</string>
+
+    <!-- string_wed.xml -->
+<string name="wed">
+
+Wed.:
+</string>
+
+    <!-- string_thu.xml -->
+<string name="thu">
+
+Thu.:
+</string>
+
+    <!-- string_fri.xml -->
+<string name="fri">
+
+Fri.:
+</string>
+
+    <!-- string_sat.xml -->
+<string name="sat">
+
+Sat.:
+</string>
+
+    <!-- string_yes.xml -->
+<string name="yes">
+
+Yes
+</string>
+
+    <!-- string_no.xml -->
+<string name="no">
+
+No
+</string>
+
+    <!-- main_menu -->
+    <string name="back">Back</string>
+
+</resources>

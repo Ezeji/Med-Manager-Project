@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToPadding="true"
+    android:background="#FFFFFF"
+    tools:context="com.example.franklinezeji.med_manager.MainActivity">
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drug_image1"
+    android:background="@drawable/drug_image1"/>
+
+    <TextView
+        android:id="@+id/medication"
+        android:layout_width="295dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dp"
+        android:text="@string/medication_"
+        android:textAppearance="@style/medication"
+        android:paddingLeft="50dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="83dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="3dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:text="@string/name"
+        android:textAppearance="@style/name" />
+    
+    <EditText
+        android:id="@+id/edit_text1"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="110dp"
+        android:textColor="#FF0808"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="132dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="3dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:text="@string/description"
+        android:textAppearance="@style/description" />
+
+    <EditText
+        android:id="@+id/edit_text2"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:textColor="#FF0808"/>
+
+    <TextView
+        android:id="@+id/interval"
+        android:layout_width="92dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="3dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:text="@string/interval"
+        android:textAppearance="@style/interval" />
+
+    <EditText
+        android:id="@+id/edit_text3"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="230dp"
+        android:textColor="#FF0808"/>
+
+    <TextView
+        android:id="@+id/start_date_"
+        android:layout_width="116dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="3dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
+        android:text="@string/start_date"
+        android:textAppearance="@style/start_date" />
+
+    <EditText
+        android:id="@+id/edit_text4"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="290dp"
+        android:textColor="#FF0808"/>
+
+    <TextView
+        android:id="@+id/end_date_"
+        android:layout_width="116dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="3dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="360dp"
+        android:text="@string/end_date"
+        android:textAppearance="@style/end_date" />
+
+    <EditText
+        android:id="@+id/edit_text5"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:textColor="#FF0808"/>
+    
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="180dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="97dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/submit_button"
+        android:text="Submit"/>
+
+</RelativeLayout>

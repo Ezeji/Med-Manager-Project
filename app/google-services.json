@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1043721319070",
+    "firebase_url": "https://med-manager-5156a.firebaseio.com",
+    "project_id": "med-manager-5156a",
+    "storage_bucket": "med-manager-5156a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043721319070:android:66918e0c4e00e4a0",
+        "android_client_info": {
+          "package_name": "com.example.franklinezeji.med_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043721319070-j6bm0b474rmstiqfd6caon7p9ulkqac4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.franklinezeji.med_manager",
+            "certificate_hash": "43ab93ad307aa9b94c02e6a884402bcb5071f599"
+          }
+        },
+        {
+          "client_id": "1043721319070-43rq5g6upp5klriv2o3814e1qibpf6g3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu7g5MN8DvTcHIr7Gp1xI8BGcZoHE21mA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043721319070-43rq5g6upp5klriv2o3814e1qibpf6g3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
