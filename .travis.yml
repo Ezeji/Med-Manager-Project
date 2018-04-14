@@ -2,7 +2,9 @@ language : android
 sudo : required
 jdk : oraclejdk8
 env:
-  TERM: dumb
+   global :
+    - ANROID_API_LEVEL = "your api level"
+    - ANDROID_BUILD_TOOLS_VERSION = "your build tools version"
 android :
   components :
     - tools
